@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <!--Import Google Icon Font-->
+        <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        
+        <!--Import materialize.css-->
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+        <link href="css/style.css" rel="stylesheet">
+        
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Portfolio</title>
+    </head>
+    <body>
+        <!--Import jQuery before materialize.js-->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+        
+        <nav class="navbar-fixed blue">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="#!" class="brand-logo"><i class="large material-icons">code</i></a>
+                    <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down" >
+                        <li><a>premier</a></li>
+                        <li><a>second</a></li>
+                    </ul>
+                    <ul class="sidenav" id="mobile-demo">
+                        <li><a>premier</a></li>
+                        <li><a>second</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <div class="parallax-container">
+            <div class="parallax">
+                <img src="media/coding.jpg">
+            </div>
+            <div class="container">
+                <h1 class="header center white-text" style="padding-top:250px;">Antoine Blondeau</h1>
+                <h3 class="header center white-text italic-text">Engineering Student</h3>
+            </div>
+        </div>
+        
+        <div class="container" style="padding-bottom:10px;">
+            <h2 class="center grey-text">What I study</h2>
+            <div class="row">
+                <div class="col s12 m4">
+                    <div class="card-panel">
+                        <h2 class="center blue-text"><i class="medium material-icons">library_books</i></h2>
+                        <h3 class="center grey-text">Sciences</h3>
+                        <p>Sciences are fundamental,that's why we study them here at <a href="http://www.isen.fr/brest/">ISEN-Brest</a>
+                        Maths for logic, Physics for technical bases / understanding.</p>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card-panel">
+                        <h2 class="center blue-text"><i class="medium material-icons">code</i></h2>
+                        <h3 class="center grey-text">Code / Tech</h3>
+                        <p>Coding is a new formidable way to innovate, combine that with some other skills and you can create almost anything you want</p>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card-panel">
+                        <h2 class="center blue-text"><i class="medium material-icons">contacts</i></h2>
+                        <h3 class="center grey-text">Social</h3>
+                        <p>If work alone is good, work in team is the best. Now think of what you can do with Internet. We call it Open Source</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="parallax-container">
+            <div class="parallax">
+                <img src="media/drone.jpg">
+            </div>
+        </div>
+        
+        <div class="container" style="padding-bottom:20px;">
+            <h2 class="center grey-text">What I've done</h2>
+            <ul class="collapsible popout" data-collapsible="accordeon">
+                <li>
+                    <div class="collapsible-header hoverable"><a href="#!"><i class="large material-icons">code</i></a>PHP + MySQL Project : Social Media</div>
+                    <div class="collapsible-body"><p>To valid a PHP course module, we had to create from scratch a fonctionnal web app, where you can add an article to a public flow : <a href="http://tp.apremel.fr/swagpanda/PHProject">PHProject</a>, give it a trial.</p></div>
+                </li>
+                <li>
+                    <div class="collapsible-header hoverable"><a href="#!"><i class="large material-icons">dns</i></a> Setting up my very own Self-Hosted Server</div>
+                    <div class="collapsible-body hoverable"><p>With the goal to understand the basics of web infrastructure, i decided to buy a <a href="https://www.raspberrypi.org/products/raspberry-pi-2-model-b/">Raspberry Pi 2</a> which is a wonderfull learning tool, as much as for its ease of use than for its huge and awesome community.<br>After trying different OS , and the advice of some older students, i decided to give a trial to the ARM version of <a href="https://archlinuxarm.org/">ArchLinux</a>, which is a nice rolling-realease distribution. After that i configured <a href="https://httpd.apache.org/">Apache</a>, my router,a Domain Name and that's how this website is hosted.</p></div>
+                </li>
+                <li>
+                    <div class="collapsible-header hoverable"><a href="#!"><i class="large material-icons">polymer</i></a>Assembling / Configuring a Delta 3D Printer</div>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="parallax-container">
+            <div class="parallax">
+                <img src="media/imprimante3d.jpg">
+            </div>
+        </div>
+        
+        <div class="container">
+            <h2 class="center grey-text">What I use</h2>
+            <div class="row">
+                
+                <div class="card-panel col s4">
+                    <h3 class="blue-text">Front-End Dev</h3>
+                
+                        <div class="col s4">
+                            <img src="media/html-5.svg" class="responsive-img">
+                        </div>
+                        <div class="col s4">
+                            <img src="media/css-3.svg" class="center responsive-img">
+                        </div>
+                    <div class="valign-wrapper">
+                        <img src="media/javascript.svg" class="center responsive-img">
+                    </div>
+                </div>
+                
+                <div class="card-panel col s4">
+                    <h3 class="blue-text">Back-End Dev</h3>
+                
+                        <div class="col s4">
+                            <img src="media/html-5.svg" class="responsive-img">
+                        </div>
+                        <div class="col s4">
+                            <img src="media/css-3.svg" class="center responsive-img">
+                        </div>
+                    <div class="valign-wrapper">
+                        <img src="media/javascript.svg" class="center responsive-img">
+                    </div>
+                </div>
+                
+                <div class="card-panel col s4">
+                    <h3 class="blue-text">OS</h3>
+                
+                        <div class="col s4">
+                            <img src="media/html-5.svg" class="responsive-img">
+                        </div>
+                        <div class="col s4">
+                            <img src="media/css-3.svg" class="center responsive-img">
+                        </div>
+                    <div class="valign-wrapper">
+                        <img src="media/javascript.svg" class="center responsive-img">
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+        <footer class="page-footer blue" style="height:500px">
+            
+        </footer>
+    </body>
+</html>
