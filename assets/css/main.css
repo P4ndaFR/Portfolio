@@ -3033,6 +3033,16 @@
 	#annoucement {
 		color: #0099ff;
 	}
+
+	#icons-main {
+		position : relative;
+		top : 1px;
+		left : 40%;
+	}
+
+	#centered-text {
+		text-align: center;
+	}
 /* XSmall */
 
 	@media screen and (max-width: 480px) {
